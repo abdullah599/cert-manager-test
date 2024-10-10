@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/abdullah599/cert-manager-test.git
     path: "."
-    targetRevision: v1.15.3
+    targetRevision: v1.14.5
     helm:
       releaseName: helix-cert-manager
       values: |
