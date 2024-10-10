@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://charts.jetstack.io
-    chart: cert-manager
+    repoURL: https://github.com/abdullah599/cert-manager-test.git
+    path: "."
     targetRevision: v1.15.3
     helm:
       releaseName: helix-cert-manager
